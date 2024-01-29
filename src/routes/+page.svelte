@@ -1,17 +1,21 @@
+<svelte:head>
+  <title>HoloBase API</title>
+</svelte:head>
+
 <div class="prose m-auto">
   <h1>Welcome to HoloBase API</h1>
 
   <p><a href="https://github.com/Wheeskeey/holobase">https://github.com/Wheeskeey/holobase</a></p>
   
   <div class="join join-vertical w-full">
-    <div class="collapse collapse-arrow join-item border border-base-300">
-      <input type="radio" name="rest-accordion" />
+    <div class="collapse collapse-arrow join-item border border-base-200">
+      <input type="radio" name="rest-accordion" class="peer" />
       
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl font-medium peer-checked:bg-base-200">
         GET /api/facejoints
       </div>
 
-      <div class="collapse-content">
+      <div class="collapse-content peer-checked:bg-base-200">
         <p>Returns all face joints</p>
 
         <span class="font-bold text-xl">Parameters</span>
@@ -48,14 +52,14 @@
       </div>
     </div>
 
-    <div class="collapse collapse-arrow join-item border border-base-300">
-      <input type="radio" name="rest-accordion" />
+    <div class="collapse collapse-arrow join-item border border-base-200">
+      <input type="radio" name="rest-accordion" class="peer" />
       
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl font-medium peer-checked:bg-base-200">
         POST /api/facejoints
       </div>
 
-      <div class="collapse-content">
+      <div class="collapse-content peer-checked:bg-base-200">
         <p>Creates a new joint and returns its data</p>
 
         <span class="font-bold text-xl">Parameters</span>
@@ -132,14 +136,14 @@
       </div>
     </div>
 
-    <div class="collapse collapse-arrow join-item border border-base-300">
-      <input type="radio" name="rest-accordion" />
+    <div class="collapse collapse-arrow join-item border border-base-200">
+      <input type="radio" name="rest-accordion" class="peer" />
       
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl font-medium peer-checked:bg-base-200">
         DELETE /api/facejoints
       </div>
 
-      <div class="collapse-content">
+      <div class="collapse-content peer-checked:bg-base-200">
         <p>Deletes all face joints. WARNING: DESTRUCTIVE!</p>
 
         <span class="font-bold text-xl">Parameters</span>
@@ -196,14 +200,14 @@
       </div>
     </div>
 
-    <div class="collapse collapse-arrow join-item border border-base-300">
-      <input type="radio" name="rest-accordion" />
+    <div class="collapse collapse-arrow join-item border border-base-200">
+      <input type="radio" name="rest-accordion" class="peer" />
       
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl font-medium peer-checked:bg-base-200">
         DELETE /api/facejoints/&lbrace;id&rbrace;
       </div>
 
-      <div class="collapse-content">
+      <div class="collapse-content peer-checked:bg-base-200">
         <p>Deletes a face joint with provided id. WARNING: DESTRUCTIVE!</p>
 
         <span class="font-bold text-xl">Parameters</span>
