@@ -5,7 +5,7 @@
 <div class="prose m-auto">
   <h1>Welcome to HoloBase API</h1>
 
-  <p><a href="https://github.com/Wheeskeey/holobase">https://github.com/Wheeskeey/holobase</a></p>
+  <p><a href="https://github.com/Wheeskeey/holobase" rel="external" target="_blank">https://github.com/Wheeskeey/holobase</a></p>
   
   <div class="join join-vertical w-full">
     <div class="collapse collapse-arrow join-item border border-base-200">
