@@ -77,27 +77,33 @@
             <tbody>
               <tr>
                 <th>joint</th>
-                <th>required</th>
+                <th>optional</th>
                 <th>string</th>
                 <th>-</th>
               </tr>
               <tr>
                 <th>x</th>
-                <th>required</th>
+                <th>optional</th>
                 <th>float</th>
                 <th>-</th>
               </tr>
               <tr>
                 <th>y</th>
-                <th>required</th>
+                <th>optional</th>
                 <th>float</th>
                 <th>-</th>
               </tr>
               <tr>
                 <th>z</th>
-                <th>required</th>
+                <th>optional</th>
                 <th>float</th>
                 <th>-</th>
+              </tr>
+              <tr>
+                <th>data</th>
+                <th>optional</th>
+                <th>object&lbrack;&rbrack;</th>
+                <th>Collection of joint objects for bulk record creation</th>
               </tr>
             </tbody>
           </table>

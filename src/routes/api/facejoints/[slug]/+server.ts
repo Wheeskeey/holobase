@@ -34,7 +34,7 @@ export async function DELETE(event) {
   } catch (error) {
     return json({
       status: "success",
-      message: "Something went wrong on the server side"
+      message: `Something went wrong on the server side ${error}`
     }, { status: 500 })
   }
 }
